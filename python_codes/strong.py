@@ -7,6 +7,7 @@ def strongno(n):
         for i in range(1,r+1):
             f=f*i
         s+=f
+        n//=10
     if s==k:
         return f"{k} is strong no"
     else:
