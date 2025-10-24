@@ -39,3 +39,12 @@
 # print('after',a,b)
 
 #prime no
+n=int(input())
+c=0
+for i in range(2,math.sqr):
+    if n%i==0:
+        c+=1
+if c==2:
+    print('prime')
+else:
+    print('not')
