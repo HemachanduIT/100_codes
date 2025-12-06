@@ -14,7 +14,7 @@ def binary_search(s,key,l,h):
         if key<s[mid]:
             h=mid-1
     else:
-        print("key not found")
+        print("key element not found")
 binary_search(s,key,l,h)
             
             #1 2 3 4 5 6
