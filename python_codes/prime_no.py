@@ -14,13 +14,13 @@
 #     print(n,'is not prime')
 # <------------------------------------->
 from math import sqrt
-n=int(input())
+no=int(input())
 flag=True
 for i in range(2,int(sqrt(n))+1):
-    if n%i==0:
+    if no%i==0:
         flag=False
         break
 if flag:
-    print(n,'is prime')
+    print(no,'is prime')
 else:
-    print(n,'is not prime')
+    print(no,'is not prime')
